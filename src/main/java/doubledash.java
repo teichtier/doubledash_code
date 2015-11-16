@@ -3,7 +3,7 @@ import javax.security.auth.callback.LanguageCallback;
 /**
  * Created by Stephan on 08.11.2015.
  */
-public class doubledash {
+public class DoubleDash {
     /*Listing of Parameters*/
 
     private LangType ddLanguage;
@@ -13,7 +13,7 @@ public class doubledash {
     private Direction ddDirection;
 
     /*Default Constructor*/
-    doubledash(){
+    DoubleDash(){
         ddLanguage = LangType.ENGLISH;
         ddScoreboard = null;
         ddNumberOfPlayers = NumberOfPlayers.ONE;
