@@ -17,4 +17,16 @@ public enum WeaponType {
         this.range = range;
         this.spriteName = spriteName;
     }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public int getRange() {
+        return range;
+    }
+
+    public String getSpriteName() {
+        return spriteName;
+    }
 }

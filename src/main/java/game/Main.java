@@ -1,8 +1,11 @@
 package game;
 
+import gui.MainGui;
+import javafx.application.Application;
+
 public class Main {
 
-    protected static DashParameters parameters;
+    public static DashParameters parameters;
 
     public static void main(String[] args) {
 
@@ -20,6 +23,7 @@ public class Main {
 
         parameters = builder.build();
         System.out.println(parameters);
+        Application.launch(MainGui.class);
     }
 
 }
