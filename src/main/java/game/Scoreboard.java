@@ -1,3 +1,5 @@
+package game;
+
 import java.util.List;
 
 /**
@@ -9,7 +11,7 @@ public class Scoreboard {
     List<String> Username;
     /**Beispiel
      *
-     * Scoreboard
+     * game.Scoreboard
      * Datum        Username Charakter Punkteanzahl
      * DD.MM.YYYY   Stephan  Rambo       200
      * **/

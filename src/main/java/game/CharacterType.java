@@ -1,3 +1,5 @@
+package game;
+
 /**
  * @since 16.11.2015
  */

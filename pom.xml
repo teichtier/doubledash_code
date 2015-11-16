@@ -30,7 +30,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>Main</mainClass>
+                            <mainClass>game.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -58,6 +58,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>

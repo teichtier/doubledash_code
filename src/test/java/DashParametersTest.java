@@ -1,6 +1,5 @@
+import game.DashParameters;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * @since 16.11.2015

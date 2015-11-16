@@ -1,3 +1,5 @@
+import game.CharacterType;
+import game.Utils;
 import org.junit.Test;
 
 import java.awt.image.BufferedImage;

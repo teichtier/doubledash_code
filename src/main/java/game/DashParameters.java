@@ -1,3 +1,5 @@
+package game;
+
 import java.util.Optional;
 import java.util.stream.Stream;
 
@@ -48,7 +50,7 @@ public class DashParameters {
 
     @Override
     public String toString() {
-        return "DashParameters{" +
+        return "game.DashParameters{" +
             "characterType=" + characterType +
             ", difficulty=" + difficulty +
             ", direction=" + direction +
