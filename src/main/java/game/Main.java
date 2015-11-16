@@ -15,6 +15,7 @@ public class Main {
         builder.getValueOfParameter(args, "weapon").ifPresent(builder::weapon);
         builder.getValueOfParameter(args, "difficulty").ifPresent(builder::difficulty);
         builder.getValueOfParameter(args, "language").ifPresent(builder::langType);
+        builder.getValueOfParameter(args, "direction").ifPresent(builder::direction);
         builder.getValueOfParameter(args, "multiplayer").ifPresent(s -> {
             if (s.toLowerCase().equals("y")) {
                 builder.numberOfPlayers(2);

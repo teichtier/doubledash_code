@@ -75,7 +75,7 @@ public class DashParameters {
         private DashParametersBuilder() {
             this.characterType = CharacterType.RAMBO;
             this.difficulty = Difficulty.NORMAL;
-            this.direction = Direction.Left2Right;
+            this.direction = Direction.LEFT_2_RIGHT;
             this.langType = LangType.ENGLISH;
             this.numberOfPlayers = NumberOfPlayers.ONE;
             this.weaponType = WeaponType.KNIFE;
